@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+ import { Provider } from 'react-redux';
+ import store from './redux/store/configStore.js'
+ import { Auth0Provider } from '@auth0/auth0-react';
+
 
 ReactDOM.render(
-  <React.StrictMode>
+
+    <Auth0Provider domain="dev-4ikv6116.us.auth0.com" clientId="hqIvgYBOGNshJ4h2YFV3k04iSnwM9krw" redirectUri={window.location.origin}>
+    <Provider store = {store}>
     <App />
-  </React.StrictMode>,
+    </Provider>
+    </Auth0Provider>
+,
   document.getElementById('root')
 );
 
