@@ -15,7 +15,7 @@ function App() {
        
         <Route path="/" exact><Login/></Route>
         <PrivateRoute path="/home"component={Home}/>
-        <Route path="*" component={() => "404 NOT FOUND"}/>
+        
         </Switch>
          
       </Router>
