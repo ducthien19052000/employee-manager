@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 
-    <Auth0Provider domain="dev-4ikv6116.us.auth0.com" clientId="hqIvgYBOGNshJ4h2YFV3k04iSnwM9krw" redirectUri={window.location.origin}>
+    <Auth0Provider domain="dev-4ikv6116.us.auth0.com" clientId="DfMvYkcoDV73OUOG5nu8bq7qqXTNdKje" redirectUri={window.location.origin}>
     <Provider store = {store}>
     <App />
     </Provider>
