@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './components/Home';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Login from './components/Login';
 import { PrivateRoute } from './PrivateRoute';
 
@@ -10,7 +10,7 @@ import { PrivateRoute } from './PrivateRoute';
 function App() {
   return (
     
-         <Router>
+         <HashRouter>
         <Switch>
        
         <Route path="/" exact><Login/></Route>
@@ -18,7 +18,7 @@ function App() {
         
         </Switch>
          
-      </Router>
+      </HashRouter>
      
     
   );
