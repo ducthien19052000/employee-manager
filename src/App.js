@@ -13,7 +13,7 @@ function App() {
          <HashRouter>
         <Switch>
        
-        <Route path="/" exact><Login/></Route>
+        <Route path="/" ><Login/></Route>
         <PrivateRoute path="/home"component={Home}/>
         
         </Switch>
