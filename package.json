@@ -5,7 +5,7 @@
   "private": true,
   "engines": {
     "node": "14.15.0",
-    "npm":"6.14.8"
+    "npm": "6.14.8"
   },
   "dependencies": {
     "@auth0/auth0-react": "^1.1.0",
@@ -14,7 +14,6 @@
     "@testing-library/user-event": "^7.2.1",
     "antd": "^4.6.6",
     "axios": "^0.20.0",
-    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
@@ -44,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
